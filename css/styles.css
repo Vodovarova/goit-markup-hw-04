@@ -527,10 +527,11 @@ display: flex;
 }
 .projects-container{
   margin-bottom: 30px;
-  
-  
-  
+    
 }
+.catalogue{
+margin-bottom: 64px;
+}/*because bottom project items is 30px(needed 94px summary between THAT'S A MOTHERFCKING MATH!!!))))))))*/
 .projects-item{
 width: 370px;
 height: 404px;
