@@ -66,12 +66,38 @@ h1 h2 h3 h4 h5 p {
   display: flex;
   padding: 24px 0;
 }
+.mailto-logo{
+  fill:#757575;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tel-logo{
+  fill:#757575;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+}
+
 
 .mailto {
   margin-left: auto;
   margin-right: 50px;
 }
 
+.mailto-logo:hover{
+  fill:#2196F3
+}
+.tel-logo:hover{
+  fill:#2196F3;
+}
+/* 
+{
+  
+  display: flex;
+  margin-bottom: 0;
+
+} */
 .tel {
   margin-left: auto;
 }
@@ -147,7 +173,7 @@ h1 h2 h3 h4 h5 p {
   background-position:center;
   background-size:cover;
 }
-/*------------------------(hidden)преимущества advantages-------------------------------*/
+/*------------------------ADVANTAGES(преимущества(hidden))-------------------------------*/
 .hidden-title {
   width: 1px;
   height: 1px;
@@ -158,14 +184,28 @@ h1 h2 h3 h4 h5 p {
 
 .advantages-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .advantages-item {
-  padding: 0 30px;
+  padding: 0;
+  display: block;
 }
 .element-padding-bottom-0 {
   padding-bottom: 0;
 }
 
+.adv-logo-item{
+width: 270px;
+height: 120px;
+left: 815px;
+top: 774px;
+background: #F5F4FA;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 .advantages-list-title {
   font-family: Roboto, sans-serif;
   font-weight: 700px;
@@ -174,33 +214,49 @@ h1 h2 h3 h4 h5 p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .advantages-list-text {
+  display: block;
+  display:flex;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
+  text-align:left;
   letter-spacing: 0.03em;
   color: #757575;
+  margin:0 30px 0 0;
 }
 /*---------------------------------WHATWEDO--------------------------------------*/
+.whatwedo-title{
+  /* margin-bottom:0; */
+  margin-top: 0;
+}
 .whatwedo-image {
   margin-bottom: 0;
   margin-top: 0;
 }
 .image-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .image-list-item {
-  padding: 50px 30px;
+  padding: 0 30px;
 }
 
 /*-------------------------------------TEAM------------------------------------*/
 .team {
   background: #f5f4fa;
 }
+.team-title{
+  margin-top: 0;
+}
 .title-section {
   font-family: Roboto, sans-serif;
   font-weight: 700px;
+  font-style: normal;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -302,7 +358,7 @@ fill:#AFB1B8;
   } */
   .clients-logo{
     width: 170px;
-     height: 92px;
+    height: 92px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
@@ -311,17 +367,13 @@ fill:#AFB1B8;
     justify-content: center;
     fill: #AFB1B8;
     margin-right: 30px;
+    padding:16px 32px;
   }
-   .clients-icon-border{
-  position: absolute;
-width: 170px;
-height: 92px;
-}
-
-
-
   
-  
+  .clients-logo:hover{
+    fill:#2196F3;
+    border-color:#2196F3;
+  }
   
 
 
@@ -359,8 +411,8 @@ height: 92px;
   height: 80px;
   margin-top: 11px;
   margin-left: 70px;
-
 }
+
 .footer .container{
   display: flex;
 }
