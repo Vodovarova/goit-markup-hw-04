@@ -538,11 +538,13 @@ left: 215px;
 top: 696px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
+}
+.projects-item:hover{
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-
 }
+
 .projects-title-text{
 text-align:left;
 padding: 20px 24px;
