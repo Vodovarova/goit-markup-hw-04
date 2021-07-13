@@ -467,12 +467,12 @@ margin-left: 0;
 
 }
 .filters{
- width: 611px;
- height: 54px;
   margin:0 auto;
   margin-top: 94px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
+  justify-content: center;
+
 }
 .filters-list{
   
