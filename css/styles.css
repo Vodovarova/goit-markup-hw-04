@@ -85,12 +85,12 @@ h1 h2 h3 h4 h5 p {
   margin-right: 50px;
 }
 
-.mailto-logo:hover{
+/* .mailto-logo:hover{
   fill:#2196F3
 }
 .tel-logo:hover{
   fill:#2196F3;
-}
+} */
 /* 
 {
   
@@ -128,10 +128,22 @@ h1 h2 h3 h4 h5 p {
 }
 .contact-link {
   color: #757575;
+  display: flex;
+  align-items: center;
+  
 }
 .link:hover {
   color: #2196f3;
 }
+.contact-link:hover .contact-icon{
+  fill:#2196f3;
+}
+.contact-icon{
+  margin-right: 8px;
+}
+/* .mailto.svg use:hover{
+  color: #2196f3;
+} */
 /*-----------------------------------------HERO----------------------------------*/
 
 .hero {
