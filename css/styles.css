@@ -74,6 +74,7 @@ h1 h2 h3 h4 h5 p {
 .nav {
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 .nav-list {
   display: flex;
@@ -101,25 +102,29 @@ h1 h2 h3 h4 h5 p {
 }
 .mailto-logo {
   fill: var(--secondary-text-color);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .tel {
   margin-left: auto;
 }
-.tel-logo {
+svg.contact-icon {
   fill: var(--secondary-text-color);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contacts-item {
+  color: var(--secondary-text-color);
 }
 .link:hover,
 :focus {
@@ -366,93 +371,9 @@ h1 h2 h3 h4 h5 p {
   border-color: var(--akcent);
 }
 
-/* ------------------------------FOOTER-----------------------------------------*/
-.footer_logo {
-  display: inline-block;
-}
-.footer_logo {
-  font-family: Raleway;
-  font-style: normal;
-  width: 145px;
-  height: 31px;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--akcent);
-}
-.adress {
-  width: 231px;
-  height: 81px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--white-text-color);
-}
-.adress-name {
-  margin-bottom: 9px;
-}
-.footer-nav-list {
-  display: flex;
-  padding: 60px 0;
-  background: var(--dark-background);
-}
-.logo-color-white {
-  color: var(--white-text-color);
-}
-.footer-contacts {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-contacts-item {
-  margin-bottom: 9px;
-}
-.join-us {
-  width: 206px;
-  height: 80px;
-  margin: 0;
-}
-
-.footer .container {
-  display: flex;
-}
-.join-us-text {
-  font-family: Roboto, sans-serif;
-  font-weight: 700px;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white-text-color);
-  margin: 0 auto;
-  width: 145px;
-  height: 16px;
-  margin-bottom: 20px;
-  margin-left: 0;
-}
-
-.join-us-social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer-social-item {
-  background: rgba(255, 255, 255, 0.1);
-}
-.footer-logo-icon use {
-  fill: var(--white-text-color);
-}
-
 /*--------------------------------PORTFOLIO---------------------------------*/
 
 .catalogue {
-  position: absolute;
   width: 1170px;
   height: 1409px;
   padding: 0;
@@ -565,4 +486,86 @@ h1 h2 h3 h4 h5 p {
   letter-spacing: 0.03em;
   margin-top: 0;
   color: var(--secondary-text-color);
+}
+/* ------------------------------FOOTER-----------------------------------------*/
+.footer_logo {
+  display: inline-block;
+}
+.footer_logo {
+  font-family: Raleway;
+  font-style: normal;
+  width: 145px;
+  height: 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--akcent);
+}
+.adress {
+  width: 231px;
+  height: 81px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+}
+.adress-name {
+  margin-bottom: 9px;
+}
+.footer-nav-list {
+  display: flex;
+  padding: 60px 0;
+  background: var(--dark-background);
+}
+.logo-color-white {
+  color: var(--white-text-color);
+}
+.footer-contacts {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-item {
+  margin-bottom: 9px;
+}
+.join-us {
+  width: 206px;
+  height: 80px;
+  margin: 0;
+}
+
+.footer .container {
+  display: flex;
+}
+.join-us-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  margin: 0 auto;
+  width: 145px;
+  height: 16px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.join-us-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-item {
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-logo-icon use {
+  fill: var(--white-text-color);
 }
