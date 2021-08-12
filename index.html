@@ -18,13 +18,13 @@
 </head>
 
 <body>
-    <header class="page-header">
+    <header class="header">
         <div class="container">
-            <nav class="nav-section">
+            <nav class="nav">
                 <a lang="en" href="./index.html" class="logo">Web<span class="logo-color-black">Studio</span></a>
                 <ul class="nav-list">
                     <li class="studio">
-                        <a class="nav-link link" href="./index.html">Студия</a>
+                        <a class="nav-link link active" href="./index.html">Студия</a>
                     </li>
                     <li class="portfolio">
                         <a class="nav-link link" href="./portfolio.html">Портфолио</a>
@@ -33,24 +33,24 @@
                         <a class="nav-link link" href="#">Контакты</a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="contacts">
-                <li class="mailto">
-                    <a class="contact-link link" href="mailto:info@devstudio.com"><svg class="contact-icon" width="16"
-                            height="12">
-                            <use href="./img/sprite.svg#icon-envelope">
-                            </use>
-                        </svg>info@devstudio.com</a>
-                </li>
-                <li class="tel">
-                    <a class="contact-link link" href="tel:+380961111111"><svg class="contact-icon" width="10"
-                            height="16">
-                            <use href="./img/sprite.svg#icon-smartphone">
-                            </use>
-                        </svg>+38 096 111 11 11</a>
-                </li>
-            </ul>
 
+                <ul class="contacts">
+                    <li class="mailto">
+                        <a class="contact-link link" href="mailto:info@devstudio.com"><svg class="contact-icon"
+                                width="16" height="12">
+                                <use href="./img/sprite.svg#icon-envelope">
+                                </use>
+                            </svg>info@devstudio.com</a>
+                    </li>
+                    <li class="tel">
+                        <a class="contact-link link" href="tel:+380961111111"><svg class="contact-icon" width="10"
+                                height="16">
+                                <use href="./img/sprite.svg#icon-smartphone">
+                                </use>
+                            </svg>+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -72,8 +72,8 @@
                             </svg>
                         </li>
                         <Li class="advantages-item">
-                            <h3 class="advantages-list-title">Внимание к деталям</h3>
-                            <p class="advantages-list-text">Идейные соображения, а также начало повседневной работы по
+                            <h3 class="advantages-item-title">Внимание к деталям</h3>
+                            <p class="advantages-item-text">Идейные соображения, а также начало повседневной работы по
                                 формированию позиции.</p>
                         </li>
                     </div>
@@ -85,8 +85,8 @@
                             </svg>
                         </li>
                         <li class="advantages-item">
-                            <h3 class="advantages-list-title">Пунктуальность</h3>
-                            <p class="advantages-list-text">Задача организации, в особенности же рамки и место обучения
+                            <h3 class="advantages-item-title">Пунктуальность</h3>
+                            <p class="advantages-item-text">Задача организации, в особенности же рамки и место обучения
                                 кадров
                                 влечет за собой.</p>
                         </li>
@@ -99,8 +99,8 @@
                             </svg>
                         </li>
                         <li class="advantages-item">
-                            <h3 class="advantages-list-title">Планирование</h3>
-                            <p class="advantages-list-text">Равным образом консультация с широким активом в
+                            <h3 class="advantages-item-title">Планирование</h3>
+                            <p class="advantages-item-text">Равным образом консультация с широким активом в
                                 значительной
                                 степени
                                 обуславливает.</p>
@@ -117,8 +117,8 @@
                             </li>
 
                             <li class="advantages-item">
-                                <h3 class="advantages-list-title">Современные технологии</h3>
-                                <p class="advantages-list-text">Значимость этих проблем настолько очевидна, что
+                                <h3 class="advantages-item-title">Современные технологии</h3>
+                                <p class="advantages-item-text">Значимость этих проблем настолько очевидна, что
                                     реализация
                                     плановых
                                     заданий.</p>
@@ -129,22 +129,24 @@
         </section>
 
 
-        <section class="section whatwedo-image">
-            <h2 class="whatwedo-title title-section">Чем мы занимаемся</h2>
+        <section class="section about">
+
             <div class="container">
-                <ul class="image-list">
-                    <li class="image-list-item"><img src="./img/box/img.jpg" alt="руки печатают на клавиатуре"
+                <h2 class="title">Чем мы занимаемся</h2>
+                <ul class="about-list">
+                    <li class="about-list-item"><img src="./img/box/img.jpg" alt="руки печатают на клавиатуре"
                             width="370">
                     </li>
-                    <li class="image-list-item"><img src="./img/box/img-2.jpg" alt="телефон и ноутбук" width="370"></li>
-                    <li class="image-list-item"><img src="./img/box/img-3.jpg" alt="планшет в руках" width="370"></li>
+                    <li class="about-list-item"><img src="./img/box/img-2.jpg" alt="телефон и ноутбук" width="370">
+                    </li>
+                    <li class="about-list-item"><img src="./img/box/img-3.jpg" alt="планшет в руках" width="370"></li>
                 </ul>
             </div>
         </section>
 
         <section class="section team">
             <div class="container">
-                <h2 class="team-title title-section">Наша команда</h2>
+                <h2 class="team-title title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-item">
                         <img src="./img/team_cards/img.jpg" alt="Фото Игоря Демьяненко" width="270">
@@ -314,7 +316,7 @@
             </div>
         </section>
         <section class="container clients">
-            <h2 class="margin-title-clients title-section">Постоянные клиенты</h2>
+            <h2 class="margin-title-clients title">Постоянные клиенты</h2>
             <ul class="client-list">
                 <li class="clients-list-item">
                     <a href="clients-item-logo">
@@ -367,17 +369,20 @@
             </ul>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer-nav-list">
         <div class="container">
-            <ul class="footer-nav-list">
-                <li lang="en"><a href="./index.html" class="logo">Web<span class="logo-color-white">Studio</span></a>
-                </li>
-                <li class="footer-list-item">
-                    <address class="adress">г.Киев, пр-т Леси Украинки, 26</address>
-                </li>
-                <li class=""><a href="mailto:info@devstudio.com" class="footer-nav">info@devstudio.com</a></li>
-                <li class=""><a href="tel:+380961111111" class="footer-nav">+38 096 111 11 11</a></li>
-            </ul>
+            <a href="./index.html" class="footer_logo">Web<span class="logo-color-white">Studio</span></a>
+            <address class="adress">
+                <p class="adress-name">г.Киев, пр-т Леси Украинки, 26</p>
+                <ul class="">
+                    <li class="footer-contacts-item"><a href="mailto:info@devstudio.com"
+                            class="footer-contacts">info@devstudio.com</a></li>
+                    <li class="footer-contacts-item"><a href="tel:+380961111111" class="footer-contacts">+38 096 111
+                            11
+                            11</a></li>
+                </ul>
+            </address>
+
             <div class="join-us">
                 <p class="join-us-text">присоединяйтесь</p>
                 <ul class="join-us-social-list">
